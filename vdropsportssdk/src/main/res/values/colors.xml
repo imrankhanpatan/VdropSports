@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBlur">#90000000</color>
+    <color name="colorShareFont">#583EFF</color>
+    <color name="colorCancel">#FF0030</color>
+    <color name="colorLine">#CDCDCD</color>
+    <color name="colorBackgrndDialog">#ECEDE9</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorClick">#D4FAF9</color>
+    <color name="colorTransparented">#bfFFFFFF</color>
+    <color name="colorText">#454545</color>
+    <color name="colorMainText">#454545</color>
+    <color name="colorProgressBar">#5BB0FF</color>
+    <color name="colorTransparent1">#00FFFFFF</color>
+
+</resources>

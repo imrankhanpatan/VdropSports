@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">VDROPSportsSDK</string>
+    <string name="vds_likes_count">77</string>
+    <string name="vds_virtual_press_conference">Virtual Press Conference</string>
+    <string name="vds_send_in_your_thoughts_on_your_victory_against_wolfsburg">Send in your thoughts on your Victory against Wolfsburg?</string>
+    <string name="vds_james_bigglesworth">James Bigglesworth</string>
+    <string name="vds_membership30091092">Membership30091092</string>
+    <string name="vds_sign_up">Sign up</string>
+    <string name="vds_get_rewarded_for_your_interactions_with_the_team_fc_bayerm_s_membership_program_rewards_you_with_loyality_points_for_your_participation_which_you_can_then_redeem_in_our_store">Get rewarded for your interactions with the team. FC Bayerm\'s membership program rewards you with loyality points for your participation which you can then redeem in our store</string>
+    <string name="vds_tap_on_the_plus_button_to_r_n_contribute_your_own_video">Tap on the plus button to r\n contribute your own video</string>
+    <string name="vds_welcomesteveblake">#WelcomeSteveBlake</string>
+    <string name="virtual_press_conference">Virtual Press Conference</string>
+    <string name="send_in_your_thoughts_on_your_victory_against_wolfsburg">Send in your thoughts on your Victory against Wolfsburg?</string>
+    <string name="upload_your_video_questions_and_comments_to_the_team_about_yesterday_s_game">Upload your video Questions and Comments to the team about yesterday\'s game</string>
+    <string name="favourite_fan_videos_will_be_answered_on_monday_at_our_press_conference">Favourite fan videos will be answered on Monday at our Press Conference.</string>
+    <string name="vds_share">Share</string>
+    <string name="vds_videos">Videos</string>
+    <string name="vds_add_video">Add Video</string>
+    <string name="vds_dialog_add_video">Add Video</string>
+    <string name="vds_record">Record</string>
+    <string name="vds_gallery">Gallery</string>
+    <string name="vds_cancel">Cancel</string>
+    <string name="vds_grid_title">#Grid Title</string>
+    <string name="vds_upload_close">Close</string>
+    <string name="vds_uploading">uploading.....</string>
+    <string name="facebook_app_id">1764457850235745</string>
+    <string name="bnc_app_key">key_live_ehFDTVnuqaComa7X4EqCpiebqwkKPnGD</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">rxsezLLzgaIHYyfQh3Hr78QRe</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">x33miyUXXYGzuBTqRvo6ErE2AsnKQjk7i6IbvseyFbdwzDfty6</string>
+    <string name="share">Share</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter_share">Twitter</string>
+</resources>

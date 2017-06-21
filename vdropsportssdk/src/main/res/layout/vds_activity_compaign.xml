@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/vds_rl_video"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vdrop.vdrop_sports_sdk.Campaignplaylist.VDSCampaignActivity">
+
+
+    <VideoView
+        android:id="@+id/vds_vd_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vds_view_pager">
+
+    </android.support.v4.view.ViewPager>
+
+    <ImageView
+        android:id="@+id/vds_iv_close_video"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/vds_close"
+        android:layout_marginTop="5dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal"
+        android:background="@drawable/vds_white_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:id="@+id/vds_background_like_border">
+        <ImageView
+            android:id="@+id/vds_iv_like_video"
+            android:layout_width="50dp"
+            android:clickable="false"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/vdrop_action_like" />
+        <TextView
+            android:id="@+id/vds_tv_like_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vds_likes_count"
+            android:textSize="20sp"
+            android:clickable="false"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/vds_ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="5dp">
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:id="@+id/vds_video_progressbar"
+        android:indeterminateDrawable="@drawable/custom_progress"
+        android:visibility="gone"/>
+</RelativeLayout>
